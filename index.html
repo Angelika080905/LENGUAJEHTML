@@ -5,36 +5,93 @@
     <meta charset="UTF8">
     <title>LENGUAJE HTML</title>
     <style>
+        body{
+            background-color: rgb(169, 248, 222);
+
+            height: 400px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
         header{
-            color: beige;
+            color: rgb(198, 238, 198);
             background-color: black;
-            font-size: 22px;
+            font-size: 15px;
+            width:480 ;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+
     
             text-align: center;
         }
          nav{
             color:black;
-            background-color:beige;
+            background-color:rgb(198, 238, 198);
             font-size: 18px;
-
- 
+            justify-items: auto;  
+            font-family: Arial, Helvetica, sans-serif;
+            display:flex;
+            justify-content: space-between;
+            
      
          }
+         nav a{
+            color:black;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0.5em;
+         }
+
             .contenedor{
             display:flex;
         }
+
+
+         main,aside{
+            border: 5px solid grey;
+         }    
             main{
             flex-grow: 2; 
-            width: 150px;
-            center;
+            width: 400px;
+            border-color:rgb(194, 212, 219) ;
+            background-color: rgb(83, 163, 216);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 500px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
             
             }
             aside{
+             font-size: 12;
+             text-align: center;   
              flex-grow:2;   
              width: 150px;
-            }
+             height: 500px;
+             border-color: rgb(194, 212, 219);
+             display:flex;
+             background-color: rgb(243, 75, 164);
+             justify-content: center;
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 12;        
+             align-items: center;
+                          
+             
             
+            }
 
+            footer{
+              background-color: rgb(199, 199, 8); 
+            font-size: 2; 
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif ;
+            height:50px ;
+            justify-items:center ;
+            
+            
+        }
+            
 </style>
 </head>
 
@@ -55,6 +112,10 @@
             <section>
                 
                 <h2>Encabezado Nivel 2</h2>
+                <padding>
+
+                </padding>
+                
                 
                 <p>Aqui va texto del primer<b> parrafo.</b></p>
                 
@@ -65,7 +126,9 @@
         </main>
         <aside>
             <h2>Apartado</h2>
-            <form>
+            
+
+                <form>
                 <ul>
                     
                     <p> Elije una Opcion
